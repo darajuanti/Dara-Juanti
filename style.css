@@ -1,0 +1,96 @@
+/* Styling umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container utama */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* Styling Form Registrasi */
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Radio button styling */
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.radio-group input {
+    margin-left: 5px;
+}
+
+/* Styling tombol submit */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Styling tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Styling header */
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #dcdcdc;
+}
+
+/* Baris bergaris selang-seling */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
